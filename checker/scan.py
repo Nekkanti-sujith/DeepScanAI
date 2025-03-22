@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = "sujithjay9999@gmail.com"
-EMAIL_PASSWORD = "vraxyryxadkgwchn"  # Use an App Password if using Gmail
+EMAIL_PASSWORD = ""  # Use an App Password if using Gmail
 EMAIL_RECEIVER = "sujithjay9999@gmail.com"
 
 # Function to send email alerts
