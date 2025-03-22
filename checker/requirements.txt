@@ -1,0 +1,7 @@
+nmap
+smtplib
+tqdm
+email
+
+
+# sudo python3 scan.py

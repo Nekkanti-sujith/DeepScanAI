@@ -7,9 +7,9 @@ from email.mime.text import MIMEText
 # Email Configuration (Use a valid SMTP server)
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_SENDER = "sujithjay9999@gmail.com"
+EMAIL_SENDER = "" # add email here
 EMAIL_PASSWORD = ""  # Use an App Password if using Gmail
-EMAIL_RECEIVER = "sujithjay9999@gmail.com"
+EMAIL_RECEIVER = "" # add email here
 
 # Function to send email alerts
 def send_email_alert(device):
@@ -93,7 +93,7 @@ def log_vulnerability(device):
     print(f"📜 Logged vulnerability for {device['IP']}")
 
 # Define network range
-network_range = "10.0.0.0/24"  
+network_range = "" #keep you ip address here  
 
 # Run periodic scans every 30 minutes
 while True:
