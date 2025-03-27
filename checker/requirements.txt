@@ -2,6 +2,7 @@ nmap
 smtplib
 tqdm
 email
+socket
 
 
 # sudo python3 scan.py

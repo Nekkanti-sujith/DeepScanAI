@@ -1,0 +1,8 @@
+IP,MAC,OS,Open_Ports,Vulnerabilities,Anomaly,Num_Open_Ports,Rule_Based_Anomaly,AI_Anomaly
+10.0.0.1,88:9E:68:2D:1D:74,1,"[22, 23, 53, 80, 111, 443, 8080, 8181, 9000, 49152]",0,Normal,10,⚠️ Suspicious,⚠️ Suspicious
+10.0.0.10,38:68:93:96:64:91,2,"[135, 139, 445, 6881, 7070]",0,Normal,5,⚠️ Suspicious,✅ Normal
+10.0.0.127,Unknown,0,"[5000, 5500, 7000]",0,Normal,3,✅ Normal,✅ Normal
+10.0.0.132,48:5F:2D:6E:71:0B,3,"[1080, 8888, 10001]",0,Normal,3,✅ Normal,✅ Normal
+10.0.0.158,48:5F:2D:A0:76:14,3,"[1080, 8888]",0,Normal,2,✅ Normal,✅ Normal
+10.0.0.17,56:9E:EC:A7:12:12,4,[],0,Normal,0,✅ Normal,✅ Normal
+10.0.0.56,E8:2A:44:28:82:0E,4,[],0,Normal,0,✅ Normal,✅ Normal
